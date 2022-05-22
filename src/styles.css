@@ -85,3 +85,15 @@ main{
 .best-score{
     margin-top: 0;
 }
+
+@media (max-width : 469px) {
+    .dice-container{
+        gap : 20px;
+    }
+}
+
+@media (max-width : 376px) {
+    .dice-container{
+        gap : 15px;
+    }
+}
