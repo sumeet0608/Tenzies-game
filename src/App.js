@@ -11,7 +11,7 @@ export default function App(){
     const [score,setScore]=useState(0);
 
     const [bestScore, setBestScore]=useState(
-        () => localStorage.getItem("bestScore") || 0
+        () => Number(localStorage.getItem("bestScore")) || 0
     );
 
     useEffect(()=>{
@@ -27,7 +27,7 @@ export default function App(){
     },[dice,bestScore,score]);
 
     React.useEffect(() => {
-        localStorage.setItem("bestScore", JSON.stringify(bestScore))
+        localStorage.setItem("bestScore", bestScore.toString());
     }, [bestScore]);
 
     function generateNewDie(){
