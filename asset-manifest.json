@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/%7BTenzies-game%7D/static/css/main.18c3a95e.css",
+    "main.js": "/%7BTenzies-game%7D/static/js/main.080eb90f.js",
+    "index.html": "/%7BTenzies-game%7D/index.html",
+    "main.18c3a95e.css.map": "/%7BTenzies-game%7D/static/css/main.18c3a95e.css.map",
+    "main.080eb90f.js.map": "/%7BTenzies-game%7D/static/js/main.080eb90f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18c3a95e.css",
+    "static/js/main.080eb90f.js"
+  ]
+}
